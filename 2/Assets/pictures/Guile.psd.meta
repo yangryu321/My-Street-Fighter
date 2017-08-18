@@ -1,0 +1,649 @@
+fileFormatVersion: 2
+guid: 280bf5f3671724e4ba1b14313ab277ea
+timeCreated: 1502937932
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 3_4
+    21300002: 3_5
+    21300004: jab2
+    21300006: 3_12
+    21300008: 3_13
+    21300010: ILDE_0
+    21300012: ILDE_1
+    21300014: ILDE_2
+    21300016: ILDE_3
+    21300018: ILDE_4
+    21300020: ILDE_5
+    21300022: ILDE_6
+    21300024: ILDE_7
+    21300026: ILDE_8
+    21300028: ILDE_9
+    21300030: ILDE_10
+    21300032: ILDE_11
+    21300034: ILDE_12
+    21300036: ILDE_13
+    21300038: ILDE_14
+    21300040: ILDE_15
+    21300042: ILDE_16
+    21300044: J1
+    21300046: j2
+    21300048: j3
+    21300050: j4
+    21300052: j5
+    21300054: j6
+    21300056: ILDE_17
+    21300058: ILDE_18
+    21300060: ILDE_19
+    21300062: ILDE_20
+    21300064: ILDE_21
+    21300066: ILDE_22
+    21300068: ILDE_23
+    21300070: ILDE_24
+    21300072: ILDE_25
+    21300074: ILDE_26
+    21300076: ILDE_27
+    21300078: jab3
+    21300080: jab1
+    21300082: ILDE_28
+    21300084: Guile_0
+    21300086: Guile_1
+    21300088: Guile_2
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jab2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 740
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_0
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1071
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1070
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1071
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_3
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1070
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1069
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_5
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1069
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_6
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1070
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_7
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1069
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_8
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1067
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_10
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1071
+        width: 44
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_11
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1067
+        width: 41
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_12
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1072
+        width: 36
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_13
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1071
+        width: 36
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_14
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1070
+        width: 44
+        height: 99
+      alignment: 9
+      pivot: {x: 1.1524714, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_15
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1070
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_9
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1063
+        width: 49
+        height: 101
+      alignment: 9
+      pivot: {x: 1.1524714, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_16
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1067
+        width: 56
+        height: 104
+      alignment: 9
+      pivot: {x: 1.1524714, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: J1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 909
+        width: 53
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: j2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 912
+        width: 53
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: j3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 910
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: j4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 912
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: j5
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 911
+        width: 53
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: j6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 910
+        width: 53
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_17
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 913
+        width: 55
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_18
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 910
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_19
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 911
+        width: 61
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_20
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 914
+        width: 43
+        height: 93
+      alignment: 9
+      pivot: {x: 1.2443968, y: 0.4460935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_21
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 912
+        width: 43
+        height: 98
+      alignment: 9
+      pivot: {x: 1.2443968, y: 0.4460935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_22
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 916
+        width: 42
+        height: 89
+      alignment: 9
+      pivot: {x: 1.2443968, y: 0.4460935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_23
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 912
+        width: 40
+        height: 91
+      alignment: 9
+      pivot: {x: 1.2443968, y: 0.4460935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_24
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 909
+        width: 29
+        height: 91
+      alignment: 9
+      pivot: {x: 1.2443968, y: 0.4460935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_25
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 910
+        width: 20
+        height: 87
+      alignment: 9
+      pivot: {x: 1.2443968, y: 0.4460935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_26
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 909
+        width: 20
+        height: 87
+      alignment: 9
+      pivot: {x: 1.2443968, y: 0.4460935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_27
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1070
+        width: 55
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jab3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 741
+        width: 62
+        height: 87
+      alignment: 9
+      pivot: {x: 0.58902764, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jab1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 741
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ILDE_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1128
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guile_0
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 717
+        width: 70
+        height: 90
+      alignment: 9
+      pivot: {x: 0.58902764, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guile_1
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 744
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 0.53013104, y: 0.5664909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
