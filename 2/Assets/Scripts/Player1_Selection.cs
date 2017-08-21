@@ -8,6 +8,7 @@ public class Player1_Selection : MonoBehaviour {
 	private GameObject[] character;
 	private int index;
 	private bool canPressNext=true;
+	public LoadLevel loadlevel;
 	// Update is called once per frame
 
 	void Start()
@@ -29,7 +30,9 @@ public class Player1_Selection : MonoBehaviour {
 
 		if (Input.GetKey ("j")) 
 		{
-			SceneManager.LoadScene (1);
+			//SceneManager.LoadScene (1);
+			loadlevel.LevelLoader(1);
+
 			
 		}
 

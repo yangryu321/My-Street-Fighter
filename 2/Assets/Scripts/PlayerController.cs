@@ -15,7 +15,6 @@ public class PlayerController : MonoBehaviour {
 
 	//public GameObject ObjectRuler;
 	public float CanJumpheight;
-
 	public float hopHeight = 10.0f;
 	private bool hopping = false;
 	public GameObject Sonicboom;
@@ -27,14 +26,20 @@ public class PlayerController : MonoBehaviour {
 		rb2d = gameObject.GetComponent<Rigidbody2D>();
 		animator = gameObject.GetComponent<Animator> ();
 
+
+
 	}
 
 
 	void FixedUpdate()
 	{
+
+
+
 		Move ();
 
-		GravityControll ();
+		//GravityControll ();
+
 
 		if (animator.GetBool ("Grounded")) 
 		{
@@ -43,6 +48,8 @@ public class PlayerController : MonoBehaviour {
 			AttackAction ();
 
 		}
+
+
 			
 
 
@@ -55,15 +62,14 @@ public class PlayerController : MonoBehaviour {
 	{
 		float x = Input.GetAxis ("Horizontal");
 		animator.SetFloat ("speed", Mathf.Abs (x));
-		float y = Input.GetAxis ("Vertical");
+		//float y = Input.GetAxis ("Vertical");
+		float y=0;
 
+	
 
-
-		if (y < 0 && animator.GetBool ("Grounded")) { //if [W] is pressed and is grounded
+		if (Input.GetKey("s") && animator.GetBool ("Grounded")) { //if [W] is pressed and is grounded
 			animator.SetBool ("Crouch", true); //Crounch
 			x = 0;
-			y = 0;
-
 
 		} else {
 			animator.SetBool ("Crouch", false);
@@ -74,8 +80,14 @@ public class PlayerController : MonoBehaviour {
 			x = 0;
 		}
 
+	
 		if(CanWalk)
-			rb2d.velocity = new Vector2 (x * speed_horizontal, 0);
+			//rb2d.velocity = new Vector2 (x * speed_horizontal, 0);
+			transform.Translate(new Vector2 (x * speed_horizontal*Time.deltaTime, 0));
+
+
+
+
 
 
 	}
@@ -84,7 +96,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		if (animator.GetBool ("Grounded")) 
 		{
-			rb2d.gravityScale = 1.0f;
+			rb2d.gravityScale = 3.0f;
 		}
 		else {
 			rb2d.gravityScale = 30.0f;
@@ -102,6 +114,8 @@ public class PlayerController : MonoBehaviour {
 		if(other.tag=="Ground")
 			animator.SetBool ("Grounded", true);
 
+		animator.SetBool("JumpForwad",false);
+
 	}
 
 	void OnTriggerExit2D(Collider2D other)
@@ -115,11 +129,13 @@ public class PlayerController : MonoBehaviour {
 
 	void JumpAction()
 	{
-		if (Input.GetButton ("d") && Input.GetButtonDown ("Jump")) {
+
+
+		if (Input.GetButton ("d") && Input.GetButtonDown ("w")) {
 			Jumpforward ();
 			animator.SetBool ("Grounded", false);
 		}
-		else if (Input.GetButton ("a") && Input.GetButtonDown ("Jump") ) {
+		else if (Input.GetButton ("a") && Input.GetButtonDown ("w") ) {
 			Jumpbackward();
 			animator.SetBool ("Grounded", false);
 		}
@@ -129,20 +145,27 @@ public class PlayerController : MonoBehaviour {
 			animator.SetBool ("Grounded", false);
 		} 
 
+
 	}
 
 
 	void Jump()
 	{
-		Vector2 pos = new Vector2 (gameObject.transform.position.x, gameObject.transform.position.y+3);
-		StartCoroutine(Hop(pos, 0.5f));
+		//Vector2 pos = new Vector2 (gameObject.transform.position.x, gameObject.transform.position.y+3);
+		//StartCoroutine(Hop(pos, 0.5f));
+
+		rb2d.velocity = new Vector2 (0, 15);
+
 
 	}
 
 	void Jumpforward()//forward
 	{
-		Vector2 pos = new Vector2 (gameObject.transform.position.x+2, gameObject.transform.position.y+3);
-		StartCoroutine(Hop(pos, 1.0f));
+		//Vector2 pos = new Vector2 (gameObject.transform.position.x+2, gameObject.transform.position.y+3);
+		//StartCoroutine(Hop(pos, 1.0f));
+		animator.SetBool("JumpForwad",true);
+		rb2d.velocity = new Vector2 (5, 15);
+
 	}
 
 	void Jumpbackward() //backward
@@ -152,13 +175,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 
-	bool CheckIfCanJump()
-	{
-		if (gameObject.transform.position.y >= CanJumpheight)
-			return true;
-		else
-			return false;
-	}
+
 	/*
 	IEnumerator CheckShoot()
 	{

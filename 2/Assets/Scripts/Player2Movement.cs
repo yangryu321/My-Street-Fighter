@@ -5,9 +5,10 @@ using UnityEngine;
 public class Player2Movement : MonoBehaviour {
 
 
-	public Rigidbody2D rb2d;
+	Rigidbody2D rb2d;
 	public Animator animator;
 	public float speed_horizontal = 5.0f;
+	private float height = 15.0f;
 	// Use this for initialization
 	void Start () {
 
@@ -20,7 +21,7 @@ public class Player2Movement : MonoBehaviour {
 
 		Move ();
 
-
+		Jump ();
 	}
 
 	void Move ()
@@ -33,6 +34,26 @@ public class Player2Movement : MonoBehaviour {
 		
 	}
 
+	void Jump()
+	{
+		if(Input.GetKeyDown("up")&&animator.GetBool("Ground"))
+			rb2d.velocity= new Vector2(0, height);
+	}
 
+
+	void OnTriggerStay2D(Collider2D other)
+	{
+		if(other.tag=="Ground")
+			animator.SetBool ("Grounded", true);
+
+	}
+
+	void OnTriggerExit2D(Collider2D other)
+	{
+		if (other.tag == "Ground") {
+			animator.SetBool ("Grounded", false);
+			animator.SetBool ("Crouch", false);
+		}
+	}
 
 }

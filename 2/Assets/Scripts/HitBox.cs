@@ -6,7 +6,7 @@ public class HitBox : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collier)
 	{
-		print ("HIT THE HEAD");
+		//print ("HIT THE HEAD");
 		
 	}
 
