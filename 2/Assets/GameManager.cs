@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour {
 	{
 		StartCoroutine(PlayRoundFight ());
 		print ("WORK333");
+		PlayRoundfight.SetActive (false);
 	}
 
 
@@ -25,8 +26,10 @@ public class GameManager : MonoBehaviour {
 
 	IEnumerator PlayRoundFight()
 	{
-		
+
 		Time.timeScale = 0;
+		yield return new WaitForSecondsRealtime (1.0f);
+		PlayRoundfight.SetActive (true);
 		//yield return StartCoroutine(CoroutineUtilities.WaitForRealTime(3.0f));
 		yield return new WaitForSecondsRealtime (3.5f);
 		PlayRoundfight.SetActive (false);
@@ -34,6 +37,8 @@ public class GameManager : MonoBehaviour {
 		print ("WORK");
 
 	}
+
+
 
 	/*
 	public static class CoroutineUtilities {                  //this class works independent of Time.scaletime; 

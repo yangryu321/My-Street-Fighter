@@ -19,11 +19,11 @@ public class Player1_Selection : MonoBehaviour {
 
 	void Update () {
 		if (canPressNext && Input.GetKey ("a")) {
-			canPressNext = false;
+			//canPressNext = false;
 			SelectLeft ();
 		}
 		else if(canPressNext && Input.GetKey ("d")) {
-			canPressNext = false;
+			//canPressNext = false;
 			SelectRight ();
 		}
 
